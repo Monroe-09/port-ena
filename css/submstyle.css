@@ -1,0 +1,103 @@
+@media (max-width:1024px) {
+  .center{
+    width: 96%;
+  }
+  header{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  header h1{
+    float:none;
+    text-align: center;
+  }
+  header #h_top{
+    display: none;
+  }
+  header #berger{
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+  /* 쇼 */
+  #show{
+    width: 100%;
+  }
+  #show .center{
+    width: 90%;
+  }
+  #show h1{
+    margin-top: 40px;
+  }
+  #show .content .show_button{
+    display: none;
+  }
+  .text{
+    margin-top: 40px;
+  }
+  /* 쇼 */
+  /* 비디오  */
+  #video .center{
+    width: 80%;
+  }
+  #video h4 {
+    margin-bottom: 20px;
+  }
+  #video .center div>div{
+    float: left;
+    width: 48%;
+    height: auto;
+    margin-bottom: 16px;
+    margin-right: 4%;
+  }
+  #video .center div>div:nth-child(odd) {
+    margin-right: 0;
+  }
+  #video .center div>div p{
+    height: 150px;
+    padding: 24px 16px;
+  }
+  #video .center div>div img{
+    width: 100%;
+  }
+
+  
+  /* 비디오  */
+  /* 푸터 */
+  footer{
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+  footer .center {
+    width: 80%;
+  }
+  footer ul{
+    width: 100%;
+  }
+  footer ul li{
+    width: 18%;
+  }
+  footer .f_b{
+    margin: 0 auto;
+  }
+  footer .f_b .tel{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:1023px){
+  #recent div>div p{
+    height: 170px;
+  }
+  footer ul li{
+    width: 17%;
+  }
+  footer .f_b .tel{
+    float: left;
+  }
+  footer .f_b .tel span{
+    text-align: left;
+  }
+}
